@@ -1,22 +1,21 @@
-# Relay Module with 1 relays
+# Relay Module with 1 relay
 
 ## Module Description 
 
-This module a board with 1 mechanical relay. The device needs constant power and ground other than just the signal voltage.\
+This module is a board with 1 mechanical relay. The device needs constant power and ground other than just the signal voltage.\
 To use the relay you need to supply a 5vdc signal on the control pin.\
 The output of the relay has a normally opened (NO), a normally closed(NV) and a common(COM).\
-When a relay is powered the NO contanct closes the NC contact opens.\
+When a relay is powered the NO contact closes the NC contact opens.\
 The signal on both NC and NO comes from the COM terminal of the relay or is supplied from the common terminal.\
 
 The input for the relay is galvanically isolated from the relay to ensure that switching the relay does not damage the mainboard.\
 
-Inputs on pinheader (left side on image)
+Inputs on pin header (left side on image)
 - GND: Ground.
-- IN1: Signal pin for relay.
+- IN1: Signal pin for the relay.
 - VCC: 5v supply input.
 
 Outputs on screw terminal (right side on image).\
-Relay 1
 - NO : Will be disconnected while the relay is unpowered.
 - NC : Will be connected while the relay is unpowered.
 - COM: Common
