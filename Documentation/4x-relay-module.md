@@ -2,11 +2,11 @@
 
 ## Module Description 
 
-This module is a set of 4 relays. There are four independent relay channels that share a common supply and ground.\
+This module is a set of 4 mechanical relays. There are four independent relay channels that share a common supply and ground.\
 To use the relay you need to supply a 5vdc signal on the relevant control pin.\
 The module has 4 leds corresponding to each relay so when the relay is engaged or disactivated be able to see it on the leds.\
 The output of each relay has a normally opened (NO), a normally closed(NV) and a common(COM).\
-When a relay is powered the NO contanct closes the NC opens.\
+When a relay is powered the NO contanct closes the NC contact opens.\
 The signal on both NC and NO comes from the COM terminal of the relay.\
 
 The inputs for the relays are galvanically isolated from the relay to ensure that switching the relay does not damage the mainboard.\
