@@ -4,19 +4,19 @@
 
 This module is a set of 4 mechanical relays. There are four independent relay channels that share a common supply and ground.\
 To use the relay you need to supply a 5vdc signal on the relevant control pin.\
-The module has 4 leds corresponding to each relay so when the relay is engaged or disactivated be able to see it on the leds.\
+The module has 4 leds that indicate the signal state of the relays.\
 The output of each relay has a normally opened (NO), a normally closed(NV) and a common(COM).\
-When a relay is powered the NO contanct closes the NC contact opens.\
+When a relay is powered the NO contact closes the NC contact opens.\
 The signal on both NC and NO comes from the COM terminal of the relay.\
 
 The inputs for the relays are galvanically isolated from the relay to ensure that switching the relay does not damage the mainboard.\
 
-Inputs on pinheader (left side on image)
+Inputs on pin header (left side on image)
 - GND: Ground.
-- IN1: Signal pin for first relay.
-- IN2: Signal pin for second relay.
-- IN3: Signal pin for third relay.
-- IN4: Signal pin for forth relay.
+- IN1: Signal pin for the first relay.
+- IN2: Signal pin for the second relay.
+- IN3: Signal pin for the third relay.
+- IN4: Signal pin for the forth relay.
 - VCC: 5v supply input.
 
 Outputs on screw terminal (right side on image).\
