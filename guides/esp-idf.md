@@ -9,4 +9,8 @@ You should only work through Vscode's ESP-IDF extension. Make sure that any prev
 
 Follow the guides on the following link, starting with `install.md` : https://github.com/espressif/vscode-esp-idf-extension/blob/HEAD/docs/tutorial
 
-In this repository folder you will find the ESP-IDF extension guides, including how to create template projects, use debugging functionalities, or how to configure your system if you are using WSL. You can also refer to the extension's page within Vscode to find useful links, functionalities wrap-up, and shortcuts descriptions.
+In this repository folder you will find the ESP-IDF extension guides, including how to create template projects, use debugging functionalities, or how to configure your system if you are using WSL.
+
+__It is strongly recommended that you check `basic_use.md` before getting started.__
+
+You can also refer to the extension's page within Vscode to find useful links, functionalities wrap-up, and shortcuts descriptions.
