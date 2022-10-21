@@ -16,13 +16,13 @@ Output 5v: 2A\
 Charging current: 800mA
 
 ### Device Overview
-<img src="../Pictures/battery-module-2x-18650-3.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
+<img src="../pictures/battery-module-2x-18650-3.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
 
 ### Device Front
-<img src="../Pictures/battery-module-2x-18650-1.png" alt="Picture of the front of the battery module with two batteies mounted" title="Battery module 2pcs 18650 battery - Front" style="max-width: 300px">
+<img src="../pictures/battery-module-2x-18650-1.png" alt="Picture of the front of the battery module with two batteies mounted" title="Battery module 2pcs 18650 battery - Front" style="max-width: 300px">
 
 ### Device Back
-<img src="../Pictures/battery-module-2x-18650-2.png" alt="Picture of the back of the battery module" title="Battery module 2pcs 18650 battery - Back" style="max-width: 300px">
+<img src="../pictures/battery-module-2x-18650-2.png" alt="Picture of the back of the battery module" title="Battery module 2pcs 18650 battery - Back" style="max-width: 300px">
 
 ## Device Count
 There are the following number of devices in the inventory: 9

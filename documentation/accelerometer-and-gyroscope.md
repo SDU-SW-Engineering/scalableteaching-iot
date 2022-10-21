@@ -34,7 +34,7 @@ Orientation detection.\
  - INT: Interrupt output pin (For activating interrupts on the microcontroller)
 
 ### Specsheet
-[MPU-6050(chip)](../Specsheets/MPU-6000-Datasheet.pdf)
+[MPU-6050(chip)](../specsheets/mpu-6000-datasheet.pdf)
 
 
 ### Device from the top

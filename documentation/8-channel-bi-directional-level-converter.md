@@ -20,7 +20,7 @@ It is important that the ground is shared between the two sides of the device.
 - GND: Shared Ground.
 
 ### Specsheet for the chip
-[Level shifting chip](../Specsheets/TXS0108E-etcTI.pdf)
+[Level shifting chip](../specsheets/txs0108e-etc-ti.pdf)
 
 
 ### Signal level converter
