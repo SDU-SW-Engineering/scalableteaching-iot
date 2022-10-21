@@ -11,7 +11,7 @@ The output of the device will follow the input signal and it will be equal to th
 
 It is important that the ground is shared between the two sides of the device.
 
-## Pinout
+### Pinout
 - VA: Supply voltage for output on A ports.
 - VB: Supply voltage for output on B ports.
 - OE: Output enable pin.
@@ -19,7 +19,7 @@ It is important that the ground is shared between the two sides of the device.
 - B1-B8: Input/Output pins for high voltage(1.65-5.5v) ports.
 - GND: Shared Ground.
 
-## Specsheet for the chip
+### Specsheet for the chip
 [Level shifting chip](../Specsheets/TXS0108E-etcTI.pdf)
 
 

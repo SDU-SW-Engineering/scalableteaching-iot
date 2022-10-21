@@ -4,11 +4,11 @@
 A connector for connecting [PVC Tube](pvc-tube.md)
 
 
-## Specsheet
+### Specsheet
 [Description](../Specsheets/<filename>.pdf)
 
 
-### Device from control side
+### Connector
 <img src="../Pictures/t-tube-connector.png" alt="Image of a t shaped connector for connecting tubes" title="T Tube Connector" style="max-width: 400px">
 
 ## Device Count
