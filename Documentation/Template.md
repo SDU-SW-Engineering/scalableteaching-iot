@@ -8,7 +8,7 @@
 [Description](../Specsheets/<filename>.pdf)
 
 
-### Device from control side
+### Device
 <img src="../Pictures/<image name>.png" alt="<Image Alt Text>" title="<Image Title>" style="max-width: 400px">
 
 ## Device Count
