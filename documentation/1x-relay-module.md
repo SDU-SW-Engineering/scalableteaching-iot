@@ -21,7 +21,7 @@ Outputs on screw terminal (right side on image).\
 - COM: Common
 
 ## Specsheet for the individual relays
-[Relay - JQC-3FF-v1](../Specsheets/JQC-3FF-v1.pdf)
+[Relay - JQC-3FF-v1](../specsheets/jqc-3ff-v1.pdf)
 
 
 ### Device from control side

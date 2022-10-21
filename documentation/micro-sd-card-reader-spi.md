@@ -13,10 +13,10 @@ Pinpout:
 - GND: Ground.
 
 ### Device Front
-<img src="../Pictures/microSD-card-reader-spi-1.png" alt="Picture of the front of the micro sd card reader" title="Micro SD card reader - Front" style="max-width: 300px">
+<img src="../pictures/micro-sd-card-reader-spi-1.png" alt="Picture of the front of the micro sd card reader" title="Micro SD card reader - Front" style="max-width: 300px">
 
 ### Device Back
-<img src="../Pictures/microSD-card-reader-spi-2.png" alt="Picture of the front of the micro sd card reader" title="Micro SD card reader - Back" style="max-width: 300px">
+<img src="../pictures/micro-sd-card-reader-spi-2.png" alt="Picture of the front of the micro sd card reader" title="Micro SD card reader - Back" style="max-width: 300px">
 
 ## Device Count
 There are the following number of devices in the inventory: 8

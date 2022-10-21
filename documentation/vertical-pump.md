@@ -12,7 +12,7 @@ The pump needs to be submersed in the source of water at all times.\
 **Dimensions:** 43mm(H) X 39mm(W)
 
 ### Device from the side
-<img src="../Pictures/vertical-pump.png" alt="Picture of vertical pump module laying on its side" title="Vertical pump" style="max-width: 400px">
+<img src="../pictures/vertical-pump.png" alt="Picture of vertical pump module laying on its side" title="Vertical pump" style="max-width: 400px">
 
 ## Device Count
 There is the following number of devices in the inventory: 
