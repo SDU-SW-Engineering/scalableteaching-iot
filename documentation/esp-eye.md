@@ -8,7 +8,7 @@ To interface and program the esp32 use a micro-usb cable.
 **IO Voltage:** 3.3V
 
 
-More information about the esp32 can be found [here](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP-EYE_Getting_Started_Guide.md).
+More information about the esp-eye can be found [here](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP-EYE_Getting_Started_Guide.md).
 
 ### Specsheet
 [Device Guide](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP-EYE_Getting_Started_Guide.md)
