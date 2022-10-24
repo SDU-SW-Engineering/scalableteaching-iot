@@ -15,4 +15,4 @@ It has an ESP32-WROOM-32 module and an RFM95W LoRa modem.
 <img src="../pictures/esp32-lora.png" alt="ESP32 devboard" title="ESP32 devboard" style="max-width: 400px">
 
 ## Device Count
-There are the following number of devices in the inventory: <Number of devices in storage>
+There are the following number of devices in the inventory: 20
