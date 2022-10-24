@@ -13,3 +13,6 @@
 
 ## Device Count
 There are the following number of devices in the inventory: <Number of devices in storage>
+
+## Device Link
+
