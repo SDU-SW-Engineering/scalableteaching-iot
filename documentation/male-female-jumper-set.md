@@ -12,7 +12,7 @@ A set of 30 male to female 6" 28AWG jumper cables
 <img src="../pictures/male-female-jumper-set.png" title="Male-female jumper set" style="max-width: 400px">
 
 ## Device Count
-There are the following number of devices in the inventory: <Number of devices in storage>
+There are the following number of devices in the inventory: 150
 
 ## Device Link
 
