@@ -1,6 +1,6 @@
 # 8 Channel signal level converter
 
-## Module Description 
+## Module Description
 This device will convert logic signals from a voltage range of 1.2-3.6v to a range of 1.65-5.5v.\
 The device has 8 channels that will independently convert the signal.\
 The output of the A ports are supplied with the voltage from VA and the output of the B ports are supplied with the voltage from VB.\
@@ -24,7 +24,7 @@ It is important that the ground is shared between the two sides of the device.
 
 
 ### Signal level converter
-<img src="../Pictures/8-channel-bi-directional-level-converter.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
+<img src="../pictures/8-channel-bi-directional-level-converter.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
 
 ## Device Count
 There are the following number of devices in the inventory: 10
