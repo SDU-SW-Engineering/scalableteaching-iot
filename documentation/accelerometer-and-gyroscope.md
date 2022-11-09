@@ -1,6 +1,6 @@
 # Inertial Measurement Unit (IMU) aka Accelerometer and Gyroscope
 
-## Module Description 
+## Module Description
 This module is a combined accelerometer and gyroscope.\
 It can be used to measure the acceleration and rotation of the device.\
 The device has 3 axes of acceleration sensors and 3 axes of rotation detection.\
@@ -38,13 +38,13 @@ Orientation detection.\
 
 
 ### Device from the top
-<img src="../Pictures/accelerometer-and-gyroscope-1.png" alt="IMU board front" title="IMU board front" style="max-width: 400px">
+<img src="../pictures/accelerometer-and-gyroscope-1.png" alt="IMU board front" title="IMU board front" style="max-width: 400px">
 
 ### Device from the Bottom
-<img src="../Pictures/accelerometer-and-gyroscope-2.png" alt="IMU board back" title="IMU board back" style="max-width: 400px">
+<img src="../pictures/accelerometer-and-gyroscope-2.png" alt="IMU board back" title="IMU board back" style="max-width: 400px">
 
 ### Device orientation from chip perspective
-<img src="../Pictures/accelerometer-and-gyroscope-3.png" alt="Image showing how the axes are oriented relative to the chip" title="IMU orientation" style="max-width: 400px">
+<img src="../pictures/accelerometer-and-gyroscope-3.png" alt="Image showing how the axes are oriented relative to the chip" title="IMU orientation" style="max-width: 400px">
 
 ## Device Count
 There is the following number of devices in the inventory: <Number of devices in storage>

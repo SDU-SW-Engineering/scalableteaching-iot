@@ -1,6 +1,6 @@
 # Relay Module with 4 relays
 
-## Module Description 
+## Module Description
 
 This module is a set of 4 mechanical relays. There are four independent relay channels that share a common supply and ground.\
 To use the relay you need to supply a 5vdc signal on the relevant control pin.\
@@ -30,7 +30,7 @@ Relay 1
 
 
 ### Device Overview
-<img src="../Pictures/4x-relay-module.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
+<img src="../pictures/4x-relay-module.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
 
 
 ## Device Count
