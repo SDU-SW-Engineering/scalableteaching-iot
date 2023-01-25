@@ -15,6 +15,8 @@ It is first needed to set the pin as output mode in order to output to it. To se
 ```C
 gpio_set_level(GPIO_NUM_0, 1) // Sets the GPIO pin 0 output as high
 ```
+
+> **Note**: on ESP32-DevKitC/WroverE, GPIO pins 34, 35, 36 and 39 are input-only. The latter two are labeled VP and VN on WRoverE boards, respectively.
 ## GPIO input
 To set the direction of a GPIO pin as input, use the `gpio_set_direction()` function and library-defined macros as following:
 ```C
@@ -24,7 +26,10 @@ It is first needed to set the pin as input mode in order to read from it. To rea
 ```C
 gpio_get_level(GPIO_NUM_0) // Reads the GPIO pin 0 input, which will be either 1 or 0 (high or low)
 ```
-
+## ADC and DAC
+These functionalities have their own guides. Please refer to them directly:
+- [ADC use](./adc-use.md)
+- [DAC use](./dac-use.md)
 ## References
 The complete API and macro reference is available here: <br>
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html
