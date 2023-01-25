@@ -1,6 +1,6 @@
 # Water pump vertical configuration
 
-## Module Description 
+## Module Description
 This module is a dc water pump with a vertical configuration. This means the device is designed to lay on its side.\
 The pump needs to be submersed in the source of water at all times.\
 
@@ -15,4 +15,14 @@ The pump needs to be submersed in the source of water at all times.\
 <img src="../pictures/vertical-pump.png" alt="Picture of vertical pump module laying on its side" title="Vertical pump" style="max-width: 400px">
 
 ## Device Count
-There is the following number of devices in the inventory: 
+There is the following number of devices in the inventory:
+
+## Drivers
+Drivers are available for this device [here](../drivers/pumps).
+
+### Usage
+With `pin` as the GPIO pin number, use the following functions to turn on and off the device:
+```C
+pump_turn_on(pin);
+pump_turn_off(pin);
+```
