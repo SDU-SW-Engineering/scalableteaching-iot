@@ -1,6 +1,6 @@
 # Relay Module with 1 relay
 
-## Module Description 
+## Module Description
 
 This module is a board with 1 mechanical relay. The device needs constant power and ground other than just the signal voltage.\
 To use the relay you need to supply a 5vdc signal on the control pin.\
@@ -25,10 +25,10 @@ Outputs on screw terminal (right side on image).\
 
 
 ### Device from control side
-<img src="../Pictures/1x-relay-module-1.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
+<img src="../pictures/1x-relay-module-1.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
 
 ### Device from relay side
-<img src="../Pictures/1x-relay-module-2.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
+<img src="../pictures/1x-relay-module-2.png" alt="Picture describing the outputs and buttons of the device" title="Battery module 2pcs 18650 battery - Overview" style="max-width: 400px">
 
 ## Device Count
 There are the following number of devices in the inventory: 5
