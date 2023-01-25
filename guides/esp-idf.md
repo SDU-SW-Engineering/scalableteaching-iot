@@ -3,9 +3,13 @@
 ### Visual Studio Code
 In order to work with ESP-IDF, you will need to have a working Visual Studio Code install. Refer to the following link if it is not already the case : https://code.visualstudio.com/download
 
-A working Python3 install is also required, as well as Pip. Refer to the following links to install Python and Pip on Windows:<br>
+A working Python3 install is also required, as well as Pip. Refer to the following links to install Python and Pip:<br>
 - Download page: https://www.python.org/downloads/<br>
 - Installation guide: https://docs.python.org/3/using/windows.html
+
+It is important that you can access python through the terminal after the installation.
+On Windows this means that you will have to select that python should be added to your PATH during the installation.\
+If you on Windows are unable to access python throught the terminal after installation, try logging out and back in. If this does not solve the problem, then please refer to this guide: https://www.educative.io/answers/how-to-add-python-to-path-variable-in-windows Rebooting after this can also be required.
 
 On Linux, Python3 comes pre-installed on most distros. Otherwise, refer to your distro's reference to install it. If your distro uses it, the `apt` package manager can be used to install Pip if it is missing:
 ```
