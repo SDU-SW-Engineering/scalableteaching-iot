@@ -8,7 +8,7 @@ To set the direction of a GPIO pin as output, use the `gpio_set_direction()` fun
 ```C
 gpio_set_direction(GPIO_NUM_0, GPIO_MODE_OUTPUT) // Sets the GPIO pin 0 as output mode
 ```
-To set the output as high or low on a pin, use the `gpio_set_level()` function and library-defined macros as following:
+It is first needed to set the pin as output mode in order to output to it. To set the output as high or low on a pin, use the `gpio_set_level()` function and library-defined macros as following:
 ```C
 gpio_set_level(GPIO_NUM_0, 1) // Sets the GPIO pin 0 output as high
 ```
@@ -17,7 +17,7 @@ To set the direction of a GPIO pin as input, use the `gpio_set_direction()` func
 ```C
 gpio_set_direction(GPIO_NUM_0, GPIO_MODE_INPUT) // Sets the GPIO pin 0 as input mode
 ```
-To read the input, use the `gpio_get_level()` function and library-defined macros as following:
+It is first needed to set the pin as input mode in order to read from it. To read the input, use the `gpio_get_level()` function and library-defined macros as following:
 ```C
 gpio_get_level(GPIO_NUM_0) // Reads the GPIO pin 0 input, which will be either 1 or 0 (high or low)
 ```
