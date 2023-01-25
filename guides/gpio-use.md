@@ -1,7 +1,10 @@
 # ESP32 GPIO use
 
 ## Library
-In order to use the functions presented in this guide it is necessary to include `gpio.h` in your code.
+In order to use the functions presented in this guide it is necessary to include `gpio.h` in your code. If the linter can't find the libraries, add the library folders to the C/C++ include path in Vscode parameters. It should be located here :
+```
+<ESP install folder>/esp-idf/components/driver/include/driver
+```
 
 ## GPIO output
 To set the direction of a GPIO pin as output, use the `gpio_set_direction()` function and library-defined macros as following:
