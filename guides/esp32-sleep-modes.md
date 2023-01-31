@@ -5,10 +5,10 @@ ESP32 contains the following power saving modes: Light-sleep, and Deep-sleep.
 In Light-sleep mode, the digital peripherals, most of the RAM, and CPUs are clock-gated and their supply voltage is reduced. Upon exit from Light-sleep, the digital peripherals, RAM, and CPUs resume operation and their internal states are preserved.
 
 In Deep-sleep mode, the CPUs, most of the RAM, and all digital peripherals that are clocked from APB_CLK (Advanced Peripheral Bus Clock) are powered off. The only parts of the chip that remain powered on are:
-- RTC controller
-- ULP coprocessor
-- RTC fast memory
-- RTC slow memory
+- [RTC controller](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/system_time.html)
+- [ULP coprocessor](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/ulp.html)
+- [RTC fast memory](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/memory-types.html#rtc-fast-memory)
+- [RTC slow memory](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/memory-types.html#rtc-slow-memory)
 
 The simplest way to use sleep modes is simply by specifying the time the board should go to sleep, as described in the code example below. However, there are several other possible wakeup sources in Deep-sleep and Light-sleep modes. These sources can also be combined so that the chip will wake up when any of the sources are triggered. Wakeup sources can be enabled using `esp_sleep_enable_X_wakeup` APIs and can be disabled using `esp_sleep_disable_wakeup_source()` API.
 
