@@ -25,16 +25,18 @@ The following code presents a simple use of the function `esp_deep_sleep()` from
 ```C
 #include "esp_sleep.h"
 
-#define DEEP_SLEEP_SECONDS 10 // Time that will be slept defined as a precompiler constant, in seconds
+#define DEEP_SLEEP_SECONDS 10.0 // Time that will be slept defined as a precompiler constant, in seconds
 
-void sleep_for_sec(int time_in_sec){
+void sleep_for_sec(double time_in_sec){
     Serial.print("Entering deep sleep for ");
     Serial.print(time_in_sec);
     Serial.println(" seconds.");
 
 		// The value is multiplied by 1 000 000 to obtain seconds, as the function uses microseconds.
-		// The "LL" at the end of the number specifies it is a Long Long integer for additional precision
-		// This prevents rounding errors, especially when dealing with shorter times
+		// The "LL" at the end of the number specifies it is a Long Long integer precision
+		// This prevents rounding errors that can arise from compiler optimization, and it is best
+		// practice to use precise types when multiplying or dividing decimal numbers, even if the result
+		// is then truncated to an integer.
     esp_deep_sleep(1000000LL * time_in_sec);
     Serial.println("Waking up!");
 		return;
@@ -51,6 +53,8 @@ void main(){
 ```
 A more complex example using a servers to synchronize internal and real-world time is available here:<br>
 https://github.com/espressif/esp-idf/tree/49551cc48cb3cdd5563059028749616de313f0ec/examples/protocols/sntp
+
+For other wakeup sources such as interrupt pins or Wifi events, refer to the documentation below to find an appropriate solution. Example codes also exist in the ESP-IDF project templates.
 ## References
 The complete documentation on ESP-IDF and RTOS features is available here :<br>
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html
